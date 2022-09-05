@@ -48,6 +48,9 @@ source /opt/ros/foxy/setup.bash
 ```
 Set the bridge between ros1 noetic and ros2 foxy topics
 ```
+source install/setup.bash
+```
+```
 ros2 run ros1_bridge dynamic_bridge
 ```
 
